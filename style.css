@@ -1,0 +1,21 @@
+h1{
+  color: blue;
+}
+h2{
+  color: purple;
+  text-align: center;
+}
+table {
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%
+}
+th, td {
+  border: 1px solid #fc0303;
+  padding: 5px;
+  text-align: center;
+}
+th {
+  background-color: lightgray;
+}
