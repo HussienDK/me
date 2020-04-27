@@ -3,7 +3,7 @@ h1{
 }
 h2{
   color: purple;
-  text-align: center;
+  text-align: left;
 }
 table {
   text-align: center;
@@ -26,4 +26,20 @@ th {
 .greenbold{
   font-weight: bold;
   color: green;
+}
+@media print {
+  .screen-only{
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  body{
+    background-image: url("hussien.jpg");
+  }
+}
+@media (max-width: 499px) {
+  body{
+    background-color: lightblue;
+  }
 }
