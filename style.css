@@ -33,7 +33,7 @@ th {
   }
 }
 
-@media (min-width: 499px) {
+@media (min-width: 2px) {
   body{
     background-image: url("hussien.jpg");
   }
