@@ -19,3 +19,11 @@ th, td {
 th {
   background-color: lightgray;
 }
+#size12{
+  font-size: 12px;
+  color: red;
+}
+.greenbold{
+  font-weight: bold;
+  color: green;
+}
