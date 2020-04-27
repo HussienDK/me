@@ -33,12 +33,12 @@ th {
   }
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   body{
     background-image: url("hussien.jpg");
   }
 }
-@media (max-width: 499px) {
+@media (min-width: 499px) {
   body{
     background-color: lightblue;
   }
