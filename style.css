@@ -41,8 +41,7 @@ th {
     background-attachment: fixed;
   }
 }
-@media (max-width: 499px) {
-  body{
-    background-color: #f03ae6;
-  }
+
+body{
+  background-color: blue;
 }
