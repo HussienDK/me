@@ -33,8 +33,16 @@ th {
   }
 }
 
-@media (min-width: 2px) {
+@media (min-width: 500px) {
   body{
-    background-image: url("hussien.jpg");
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 499px) {
+  body{
+    background-color: #ccbacb;
   }
 }
